@@ -12,5 +12,8 @@ This program should be run in a Linux/UNIX terminal. A make file has been includ
 start the program by inputing ./MazeSolver. The program will then ask for an input file. Two input files have been included, input.txt
 and tarzan.txt, but you can make your own as long as it follows the format of the two given input files. The program will then solve
 the maze if it's possible. If it's impossible for Tarzan to get to Jojo, then a message will be displayed to the screen saying that
-Jojo can't be found. Otherwise, the program will create a new file that tells you how to solve the maze. It solves the maze by using
-a depth-first search algorithm.
+Jojo can't be found. Otherwise, the program will create a new file that tells you how to solve the maze. 
+
+This program works by creating a 2D array from the specified input file. From that array, the program then creates an adjacency 
+matrix. The adjacency matrix will tell whether you can travel from one vertex to another and how far that distance is. A 
+depth-first search algorithm is then used on the adjacency matrix to figure out how to solve the maze.
