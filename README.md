@@ -16,4 +16,4 @@ Jojo can't be found. Otherwise, the program will create a new file that tells yo
 
 This program works by creating a 2D array from the specified input file. From that array, the program then creates an adjacency 
 matrix. The adjacency matrix will tell whether you can travel from one vertex to another and how far that distance is. A 
-depth-first search algorithm is then used on the adjacency matrix to figure out how to solve the maze.
+depth-first search algorithm is then used to figure out how the maze can be solved.
