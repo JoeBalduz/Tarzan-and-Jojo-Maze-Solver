@@ -1,7 +1,9 @@
 # Tarzan-and-Jojo-Maze-Solver
 Solves Tarzan and Jojo style mazes.
 
-This program solves Tarzan and Jojo style mazes. Here is an image of one such maze: https://i.imgur.com/AFUlOGs.jpg.
+This program solves Tarzan and Jojo style mazes. Below is an image of one such maze.
+
+![maze](https://i.imgur.com/AFUlOGs.jpg)
 
 How these mazes work: From the given picture, Tarzan starts at the very top and has to get to Jojo who is at the very bottom.
 Tarzan can move 3 to 4 spaces at a time going in the direction that is specified on the block he is at. In the picture,
